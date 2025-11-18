@@ -1,0 +1,30 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 30vw;
+    height: 30vh;
+    background-color: #e63946;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+html {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
